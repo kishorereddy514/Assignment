@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sauce Labs Automation Test Suite" parallel="tests">
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="ca.aeq.automation.sauce.test.LoginPageTest"></class>
+			<class name="ca.aeq.automation.sauce.test.HomePageTest"></class>
+		</classes>
+	</test>
+
+	<test name="FireFoxTestt">
+		<parameter name="browser" value="FF" />
+		<classes>
+
+			<class name="ca.aeq.automation.sauce.test.LoginPageTest"></class>
+			<class name="ca.aeq.automation.sauce.test.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>

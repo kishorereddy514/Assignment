@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sauce Labs Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="ca.aeq.automation.sauce.ExtentListenerReport.ExtentReporterNG"></listener>
+	</listeners>
+	
+	<test name="Sauce Test Cases">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="ca.aeq.automation.sauce.test.LoginPageTest"></class>
+			<class name="ca.aeq.automation.sauce.test.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>

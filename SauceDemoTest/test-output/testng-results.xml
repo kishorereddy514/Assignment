@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sauce Labs Automation Test Suite" duration-ms="62919" started-at="2019-04-23T00:41:09Z" finished-at="2019-04-23T00:42:12Z">
+    <groups>
+    </groups>
+    <test name="Sauce Test Cases" duration-ms="62919" started-at="2019-04-23T00:41:09Z" finished-at="2019-04-23T00:42:12Z">
+      <class name="ca.aeq.automation.sauce.test.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.HomePageTest@42dafa95]" name="setUp" is-config="true" duration-ms="4967" started-at="2019-04-23T00:42:06Z" finished-at="2019-04-23T00:42:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyInventoryItemImages()[pri:0, instance:ca.aeq.automation.sauce.test.HomePageTest@42dafa95]" name="verifyInventoryItemImages" duration-ms="376" started-at="2019-04-23T00:42:11Z" finished-at="2019-04-23T00:42:11Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Inventory Item Iamges are not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Inventory Item Iamges are not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at ca.aeq.automation.sauce.test.HomePageTest.verifyInventoryItemImages(HomePageTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryItemImages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.HomePageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="682" started-at="2019-04-23T00:42:11Z" finished-at="2019-04-23T00:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.aeq.automation.sauce.test.HomePageTest -->
+      <class name="ca.aeq.automation.sauce.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="5660" started-at="2019-04-23T00:41:09Z" finished-at="2019-04-23T00:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="botColumnLogoImgTest()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="botColumnLogoImgTest" duration-ms="91" started-at="2019-04-23T00:41:15Z" finished-at="2019-04-23T00:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- botColumnLogoImgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="788" started-at="2019-04-23T00:41:15Z" finished-at="2019-04-23T00:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4390" started-at="2019-04-23T00:41:16Z" finished-at="2019-04-23T00:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isFieldsDisplayed()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="isFieldsDisplayed" duration-ms="203" started-at="2019-04-23T00:41:20Z" finished-at="2019-04-23T00:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFieldsDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="673" started-at="2019-04-23T00:41:20Z" finished-at="2019-04-23T00:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4318" started-at="2019-04-23T00:41:21Z" finished-at="2019-04-23T00:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="loginPageTest" duration-ms="11" started-at="2019-04-23T00:41:25Z" finished-at="2019-04-23T00:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="661" started-at="2019-04-23T00:41:25Z" finished-at="2019-04-23T00:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4241" started-at="2019-04-23T00:41:26Z" finished-at="2019-04-23T00:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="swagLogoImgTest()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="swagLogoImgTest" duration-ms="43" started-at="2019-04-23T00:41:30Z" finished-at="2019-04-23T00:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swagLogoImgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="656" started-at="2019-04-23T00:41:30Z" finished-at="2019-04-23T00:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4030" started-at="2019-04-23T00:41:32Z" finished-at="2019-04-23T00:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateTestData(java.lang.String, java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="validateTestData" duration-ms="511" started-at="2019-04-23T00:41:36Z" data-provider="getLoginTestData" finished-at="2019-04-23T00:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error while logging with userName locked_out_user and password secret_sauce expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error while logging with userName locked_out_user and password secret_sauce expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at ca.aeq.automation.sauce.test.LoginPageTest.validateTestData(LoginPageTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="643" started-at="2019-04-23T00:41:37Z" finished-at="2019-04-23T00:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4203" started-at="2019-04-23T00:41:38Z" finished-at="2019-04-23T00:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTestData(java.lang.String, java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="validateTestData" duration-ms="11590" started-at="2019-04-23T00:41:42Z" data-provider="getLoginTestData" finished-at="2019-04-23T00:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="696" started-at="2019-04-23T00:41:54Z" finished-at="2019-04-23T00:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4268" started-at="2019-04-23T00:41:54Z" finished-at="2019-04-23T00:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateTestData(java.lang.String, java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="validateTestData" duration-ms="629" started-at="2019-04-23T00:41:58Z" data-provider="getLoginTestData" finished-at="2019-04-23T00:41:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error while logging with userName invalid and password invalid expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error while logging with userName invalid and password invalid expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at ca.aeq.automation.sauce.test.LoginPageTest.validateTestData(LoginPageTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="672" started-at="2019-04-23T00:41:59Z" finished-at="2019-04-23T00:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="setUp" is-config="true" duration-ms="4239" started-at="2019-04-23T00:42:00Z" finished-at="2019-04-23T00:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateTestData(java.lang.String, java.lang.String)[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="validateTestData" duration-ms="405" started-at="2019-04-23T00:42:04Z" data-provider="getLoginTestData" finished-at="2019-04-23T00:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error while logging with userName  and password  expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error while logging with userName  and password  expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at ca.aeq.automation.sauce.test.LoginPageTest.validateTestData(LoginPageTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.aeq.automation.sauce.test.LoginPageTest@589838eb]" name="tearDown" is-config="true" duration-ms="661" started-at="2019-04-23T00:42:05Z" finished-at="2019-04-23T00:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.aeq.automation.sauce.test.LoginPageTest -->
+    </test> <!-- Sauce Test Cases -->
+  </suite> <!-- Sauce Labs Automation Test Suite -->
+</testng-results>
